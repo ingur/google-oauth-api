@@ -1,0 +1,12 @@
+{
+  "name": "google-oauth-api",
+  "private": true,
+  "dependencies": {
+    "googleapis": "^153.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "@vercel/node": "^5.3.6",
+    "typescript": "^5.8.3"
+  }
+}
