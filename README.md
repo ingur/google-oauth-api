@@ -1,6 +1,6 @@
 # google-oauth-api
 
-Free and easy serverless Google OAuth 2.0 service with secure token management:
+Serverless Google OAuth 2.0 service with secure token management:
 - Refresh tokens encrypted with AES-256-CBC
 - Client secrets server-side only
 - Stateless design
@@ -13,11 +13,6 @@ Free and easy serverless Google OAuth 2.0 service with secure token management:
 GOOGLE_CLIENT_ID=your-client-id
 GOOGLE_CLIENT_SECRET=your-client-secret
 ENCRYPTION_KEY=your-32-char-key
-```
-
-2. Deploy to Vercel:
-```bash
-vercel deploy
 ```
 
 ## Endpoints
