@@ -29,7 +29,7 @@ export function decrypt(encryptedText: string): string {
   if (!ivHex || !encrypted) {
     throw new Error('Invalid encrypted text format');
   }
-  
+
   const iv = Buffer.from(ivHex, 'hex');
   const decipher = createDecipheriv(ALGORITHM, processedKey, iv);
   let decrypted = decipher.update(encrypted, 'hex', 'utf8');
